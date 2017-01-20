@@ -133,19 +133,21 @@ public class RealmActivity extends Activity implements View.OnClickListener {
                 //更新
                 //先找到对应的数据 通过名字去查询
                 final Dog dd = mRealm.where(Dog.class).equalTo("name","hemiy").findFirst();
-              if(dd.isValid()){
+
+              if(dd!=null){//表示查询的结果存在
                   Toast.makeText(this, "存在", Toast.LENGTH_SHORT).show();
-              }else{
+                  //直接修改即可
+                  mRealm.executeTransaction(new Realm.Transaction() {
+                      @Override
+                      public void execute(Realm realm) {
+                          dd.setName("super-hemiy");
+                      }
+                  });
+              }else{//表示没有找到对应的查询结果
                   Toast.makeText(this, "不存在", Toast.LENGTH_SHORT).show();
+                  return;
               }
-                //直接修改即可
-                mRealm.executeTransaction(new Realm.Transaction() {
-                    @Override
-                    public void execute(Realm realm) {
-                        dd.setName("super-hemiy");
-                    }
-                });
-                Toast.makeText(this, "更新成功", Toast.LENGTH_SHORT).show();
+
                 break;
 
             default:
