@@ -45,6 +45,7 @@ import hemiy.qinghui.com.mytestdemo.rxbus.RxbusActivity2;
 import hemiy.qinghui.com.mytestdemo.rxjava.RxjavaActivity;
 import hemiy.qinghui.com.mytestdemo.slidingpanellayout.SlidingActivity;
 import hemiy.qinghui.com.mytestdemo.snackbar.SnackBarActivity;
+import hemiy.qinghui.com.mytestdemo.snowfall.SnowFallActivity;
 import hemiy.qinghui.com.mytestdemo.spanstringbuilder.SpanStringBuilderActivity;
 import hemiy.qinghui.com.mytestdemo.sweetdialog.SweetDialog;
 import hemiy.qinghui.com.mytestdemo.tablayout.TabLayoutActivity;
@@ -139,6 +140,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnRetrfitNew;
     @BindView(R.id.btnRealm)
     Button btnRealm;
+    @BindView(R.id.btnSnow)
+    Button btnSnow;
 
     private Button btnBus;
     private Button btnRefresh;
@@ -166,8 +169,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_index);
         ButterKnife.bind(this); //依赖注入的框架
         Logger.d("log日志执行了");
-        Logger.json(JSON_CONTENT);
-        Logger.xml(XML_CONTENT);
+//        Logger.json(JSON_CONTENT);
+//        Logger.xml(XML_CONTENT);
         btnBus = (Button) findViewById(R.id.btn_bus);
         btnRefresh = (Button) findViewById(R.id.btn_fresh);
         btnLoad = (Button) findViewById(R.id.btn_load);
@@ -216,7 +219,8 @@ public class MainActivity extends AppCompatActivity {
         btnSpanString.setOnClickListener(myBtnClick);
         btnFragment.setOnClickListener(myBtnClick);
         btnRetrfitNew.setOnClickListener(myBtnClick); //retrofit实战
-        btnRealm.setOnClickListener(myBtnClick); //retrofit实战
+        btnRealm.setOnClickListener(myBtnClick);
+        btnSnow.setOnClickListener(myBtnClick); //下雪视图
 
     }
 
@@ -307,8 +311,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, FragmentDemoActivity.class));
             } else if (id == R.id.btnRetrfitNew) {
                 startActivity(new Intent(MainActivity.this, RetrofitPraticeActivity.class));
-            }else if(id==R.id.btnRealm){
+            } else if (id == R.id.btnRealm) {
                 startActivity(new Intent(MainActivity.this, RealmActivity.class));
+            }else if(id==R.id.btnSnow){
+                startActivity(new Intent(MainActivity.this, SnowFallActivity.class));
             }
         }
     }

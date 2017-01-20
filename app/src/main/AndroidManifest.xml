@@ -155,6 +155,9 @@
         <!--retrofit实战-->
         <activity android:name=".retrofitpractice.RetrofitPraticeActivity"/>
 
+        <!--下雪视图-->
+        <activity android:name=".snowfall.SnowFallActivity"/>
+
         <meta-data android:name="hemiy.qinghui.com.mytestdemo.glide.ConfigurationGlide"
             android:value="GlideModule"/>
 
