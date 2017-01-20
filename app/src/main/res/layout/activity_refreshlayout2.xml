@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.cjj.MaterialRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/refresh"
+        app:overlay="false"
+        app:wave_show="false"
+
+        >
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/recycleview"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+    </com.cjj.MaterialRefreshLayout>
+</LinearLayout>

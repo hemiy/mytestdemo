@@ -1,0 +1,74 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/red</item>  <!--这个是决定了状态栏颜色-->
+        <item name="colorAccent">@color/blue</item>
+        <!--这个是取消5.0以上按钮有阴影的问题-->
+        <item name="android:buttonStyle">?android:attr/borderlessButtonStyle</item>
+
+
+<!--加上下面的2句，是模仿微信预览和选择时不要报错-->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="actionSheetStyle">@style/ActionSheetStyleiOS7</item>
+    </style>
+
+
+
+    <style name="DemoTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#38A4DE</item>
+        <item name="colorPrimaryDark">#1B88CA</item>
+        <item name="colorAccent">#1B88CA</item>
+    </style>
+
+
+    <!--<style name="ActionSheetStyleIOS7">-->
+        <!--<item name="actionSheetBackground">#E9E8EF</item>-->
+        <!--<item name="cancelButtonBackground">@drawable/actionsheet_slt_as_ios7_other_bt_middle</item>-->
+        <!--<item name="otherButtonTopBackground">@drawable/actionsheet_slt_as_ios7_other_bt_middle</item>-->
+        <!--<item name="otherButtonMiddleBackground">@drawable/actionsheet_slt_as_ios7_other_bt_middle</item>-->
+        <!--<item name="otherButtonBottomBackground">@drawable/actionsheet_slt_as_ios7_other_bt_middle</item>-->
+        <!--<item name="otherButtonSingleBackground">@drawable/actionsheet_slt_as_ios7_other_bt_middle</item>-->
+        <!--<item name="cancelButtonTextColor">#333333</item>-->
+        <!--<item name="otherButtonTextColor">#333333</item>-->
+        <!--<item name="actionSheetPadding">0dp</item>-->
+        <!--<item name="otherButtonSpacing">0dp</item>-->
+        <!--<item name="cancelButtonMarginTop">10dp</item>-->
+        <!--<item name="actionSheetTextSize">18sp</item>-->
+    <!--</style>-->
+
+
+    <style name="myButtonStyle">
+        <item name="android:textColor">@color/red</item>
+       <item name="android:background">@color/gray</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+
+    <!--http://www.jianshu.com/p/70a485c168be-->
+    <!--Material Design风格常用控件的使用与定制-->
+
+    <!--<style name="myredBtn">-->
+        <!--<item name="android:colorButtonNormal" >@color/red</item>-->
+    <!--</style>-->
+
+
+    <!-- 加载框样式 -->
+    <style name="loadingDialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--
+        对话框是否有遮盖
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        -->
+    </style>
+
+</resources>

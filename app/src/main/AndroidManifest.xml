@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="hemiy.qinghui.com.mytestdemo">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- 以下是闪光灯需要的权限-->
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+     <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".MyApplication"
+        tools:replace="android:icon"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="hemiy.qinghui.com.mytestdemo.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="hemiy.qinghui.com.mytestdemo.eventbus.FirstActivity"/>
+
+        <activity android:name="hemiy.qinghui.com.mytestdemo.eventbus.SecondActivity"/>
+
+        <activity android:name="hemiy.qinghui.com.mytestdemo.refresh.RefreshLayout2"/>
+
+        <activity android:name="hemiy.qinghui.com.mytestdemo.loadingview.LoadIngView"/>
+
+        <activity android:name="hemiy.qinghui.com.mytestdemo.sweetdialog.SweetDialog"/>
+
+        <activity android:name="hemiy.qinghui.com.mytestdemo.listview.ListViewActivity"/>
+
+        <activity android:name="hemiy.qinghui.com.mytestdemo.tablayout.TabLayoutActivity"/>
+
+        <activity android:name="hemiy.qinghui.com.mytestdemo.floatbutton.FloatButtonAcvitity"/>
+
+        <activity android:name="hemiy.qinghui.com.mytestdemo.textinputlayout.TextInputActivity"/>
+        <activity android:name="hemiy.qinghui.com.mytestdemo.progressbtn.ProgressButtonActivity"/>
+        <activity android:name="hemiy.qinghui.com.mytestdemo.times.TimeActivity"/>
+        <activity android:name="hemiy.qinghui.com.mytestdemo.countdowntimer.CountDonwActivity"/>
+
+        <activity android:name="hemiy.qinghui.com.mytestdemo.arc.ArcActivity"/>
+        <activity android:name="hemiy.qinghui.com.mytestdemo.navigationview.NaviActivity"/>
+
+
+
+
+        <!--仿微信的图片选择-->
+        <activity android:name="hemiy.qinghui.com.mytestdemo.photopicker.PhotoPicker"/>
+        <activity android:name="hemiy.qinghui.com.mytestdemo.photopicker.PhotoPicker2"/>
+        <activity android:name="com.yongchun.library.view.ImageSelectorActivity" />
+        <activity android:name="com.yongchun.library.view.ImagePreviewActivity"/>
+        <activity android:name="com.yongchun.library.view.ImageCropActivity"/>
+
+
+
+        <!--glide图片加载-->
+        <activity android:name="hemiy.qinghui.com.mytestdemo.glide.GlideAcvitity"/>
+
+        <!--&lt;!&ndash;引入了第3方的开源库&ndash;&gt;-->
+        <!--<activity android:name="hemiy.qinghui.com.mytestdemo.actionsheet.ActionSheetActivity"/>-->
+
+        <activity android:name=".anctionforandroid.AsForAndroidActivity"/>
+
+        <!--网络请求库-->
+        <activity android:name=".okhttp.OkHttpActivity"/>
+
+        <activity android:name=".togglebutton.ToggleButtonActivity"/>
+
+        <activity android:name=".lableview.LabelViewActivity"/>
+
+        <!--圆点指示器-->
+        <activity android:name=".circleindicator.CircleIndicatorActivity"/>
+
+        <!--扁平的按钮-->
+        <activity android:name=".flatbutton.FlatButtonActivity"/>
+
+        <!--RecycleViewActivity-->
+        <activity android:name=".recycleview.RecycleViewActivity"/>
+
+        <!--materialdialog-->
+        <activity android:name=".materialdialog.MateraiDialogActivity"/>
+
+        <!--rxjava-->
+        <activity android:name=".rxjava.RxjavaActivity"/>
+
+        <!--沉浸式状态栏-->
+        <activity android:name=".immersive.ImmersiveActivity"/>
+
+        <!--自定义谷歌官方的下拉刷新 上啦加载更多控件-->
+        <activity android:name=".refreshdiy.RefreshDiy"/>
+
+        <!-- RxBus-->
+        <activity android:name=".rxbus.RxbusActivity"/>
+
+        <!-- RxBus2 支持sticky事件-->
+        <activity android:name=".rxbus.RxbusActivity2"/>
+
+        <!--flash灯-->
+        <activity android:name=".commonutil.CommonUtilActivity"/>
+
+        <!--retrofit-->
+        <activity android:name=".retorfit.RetrofitActivity"/>
+
+        <!--animation-->
+        <activity android:name=".animation.AnimationActivity"/>
+
+
+        <!--snackbar-->
+        <activity android:name=".snackbar.SnackBarActivity"/>
+
+        <!--比较上下的listview-->
+        <activity android:name=".listviewtype.ListViewTypeActivity"/>
+
+        <!--圆环倒计时-->
+        <activity android:name=".countdownview.CounterDownActivity"/>
+
+        <!--slidingPanel-->
+        <activity android:name=".slidingpanellayout.SlidingActivity"/>
+
+        <!--底部导航栏-->
+        <activity android:name=".bottombar.BottomBarActivity"/>
+
+
+        <!--liteOrm数据库的使用-->
+        <activity android:name=".liteorm.PersonActivity"/>
+
+
+        <!--spanStringBuilder-->
+        <activity android:name=".spanstringbuilder.SpanStringBuilderActivity"/>
+
+        <!--fragment和activity之间的通信-->
+        <activity android:name=".fragment.FragmentDemoActivity"/>
+
+
+        <!--一个流行的数据库-->
+        <activity android:name=".realm.RealmActivity"/>
+
+        <!--retrofit实战-->
+        <activity android:name=".retrofitpractice.RetrofitPraticeActivity"/>
+
+        <meta-data android:name="hemiy.qinghui.com.mytestdemo.glide.ConfigurationGlide"
+            android:value="GlideModule"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btnShopCar"
+        android:icon="@drawable/icon_chaoshi"
+        android:title="Recents" />
+    <item
+        android:id="@+id/btnBuild"
+        android:icon="@drawable/icon_shequ"
+        android:title="Favorites" />
+    <item
+        android:id="@+id/btnImg"
+        android:icon="@drawable/icon_circle"
+        android:title="Nearby" />
+    <item
+        android:id="@+id/btnSale"
+        android:icon="@drawable/icon_2shou"
+        android:title="Friends" />
+</menu>

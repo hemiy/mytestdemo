@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_report"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<hemiy.qinghui.com.mytestdemo.countdownview.CountdownView
+    android:id="@+id/countDownView"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    app:background_color="#22000000"
+    app:border_color="#55B8E2"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    app:border_width="2dp"
+    app:text_size="12dp" />
+
+    <Button
+        android:id="@+id/btn_action"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:background="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="展示actionsheet"/>
+
+</LinearLayout>

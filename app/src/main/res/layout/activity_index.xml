@@ -1,0 +1,459 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_bus"
+            style="@style/myButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/holo_blue_dark"
+            android:text="进入eventBus"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnOkHttp"
+            style="@style/myButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="OkHttp"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_fresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_red_dark"
+            android:text="进入下拉刷新"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="进入显示loading"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_sweet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="对话框"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"
+            android:text="隐藏颜色的listView"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_tablayou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_red_light"
+            android:text="tablayout"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_floatBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue"
+            android:text="悬浮按钮"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_textinput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue"
+            android:text="textInputLayout"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_progBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue"
+            android:text="进度条按钮"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:text="日期选择"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_imgPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/red"
+            android:text="模仿微信选择"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_glide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/red"
+            android:text="glide图片加载"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_countDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue"
+            android:text="countDown倒计时"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_arc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/red"
+            android:text="百分的圆形"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/green"
+            android:text="navi"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/btn_actionsheet1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/red"
+            android:text="actionsheet_git"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnToggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/green"
+            android:text="toggleButton"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnLabelView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue"
+            android:text="labelView"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnCircleIndictor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/red"
+            android:text="圆点指示器"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnFlatButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue"
+            android:text="扁平按钮"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnRecycleView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/red"
+            android:text="RecycleView"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/btnMateriaDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue"
+            android:text="MateriaDialog"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/btnRxjava"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/red"
+            android:text="Rxjava"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/btnImmer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/green"
+            android:text="沉浸式状态栏"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/btnDiy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/fbutton_color_orange"
+            android:text="自定义下拉刷新"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnRxbus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue"
+            android:text="Rxbus"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/btnRxbus2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/red"
+            android:text="Rxbus支持sticky"
+            android:textColor="@android:color/white" />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="md风格的按钮"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:background="@drawable/selector_button"
+            />
+
+        <Button
+            android:id="@+id/btnFlash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="闪光灯"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            />
+
+        <Button
+            android:id="@+id/btnRetrofit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="retrofit网络请求"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            />
+
+        <Button
+            android:id="@+id/btnAnimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="动画"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:background="@color/green"
+            />
+
+        <Button
+            android:id="@+id/btnListviewType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="比较上下的listview"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:background="@color/green"
+            />
+
+        <Button
+            android:id="@+id/btnSnackBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="btnSnackBar"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:background="@color/green"
+            />
+
+
+        <Button
+            android:id="@+id/btnCircleCountdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="圆环倒计时"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            />
+
+        <Button
+            android:id="@+id/btnSlidingPanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SlidingPanel"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            />
+
+        <Button
+            android:id="@+id/btnBottomBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="底部导航栏"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:background="@color/green"
+            />
+
+
+        <Button
+            android:id="@+id/btnLiteOrm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="liteOrm"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            />
+
+
+        <Button
+            android:id="@+id/btnSpanString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="spanString多功能字符串"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:background="@color/green"
+            />
+
+        <Button
+            android:id="@+id/btnFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fragment和activity之间的通信"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            />
+
+        <Button
+            android:id="@+id/btnRetrfitNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="retrofit实战技巧"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            />
+
+        <Button
+            android:id="@+id/btnRealm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="realm数据库"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:background="@color/green"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

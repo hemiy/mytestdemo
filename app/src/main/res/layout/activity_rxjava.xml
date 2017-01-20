@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <LinearLayout
+        android:id="@+id/ll_report"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btnRxjava1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@color/blue"
+            android:text="原始" />
+
+        <Button
+            android:id="@+id/btnRxjava2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@color/red"
+            android:text="简化" />
+
+        <Button
+            android:id="@+id/btnRxjava3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@color/green"
+            android:text="使用action" />
+
+        <Button
+            android:id="@+id/btnRxjava4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@color/green"
+            android:text="转化map" />
+
+        <Button
+            android:id="@+id/btnRxjava5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@color/red"
+            android:text="buffer的使用" />
+
+        <Button
+            android:id="@+id/btnRxjava6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@color/blue"
+            android:text="flatMap的使用" />
+
+
+        <Button
+            android:id="@+id/btnRxjava7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@color/blue"
+            android:text="window使用" />
+
+        <Button
+            android:id="@+id/btnRxjava8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@color/gray"
+            android:text="from和just的区别" />
+
+
+        <Button
+            android:id="@+id/btnRxjava9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@color/green"
+            android:text="interval" />
+
+        <Button
+            android:id="@+id/btnRxjava10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@color/fbutton_color_orange"
+            android:text="timer" />
+
+        <Button
+            android:id="@+id/btnRxjava11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@color/gray"
+            android:text="never" />
+        <Button
+            android:id="@+id/btnRxjava12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@color/gray"
+            android:text="error" />
+
+        <Button
+            android:id="@+id/btnRxjava13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@color/gray"
+            android:text="repeat" />
+
+
+        <Button
+            android:id="@+id/btnSendEvent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@color/gray"
+            android:text="发送Rxbus事件" />
+
+    </LinearLayout>
+</ScrollView>

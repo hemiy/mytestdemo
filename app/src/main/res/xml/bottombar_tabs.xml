@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        id="@+id/btnShopCar"
+        icon="@drawable/icon_chaoshi"
+        title="购物车" />
+    <tab
+        id="@+id/btnBuild"
+        icon="@drawable/icon_shequ"
+        title="建筑" />
+    <tab
+       id="@+id/btnImg"
+       icon="@drawable/icon_circle"
+       title="圆圈" />
+    <tab
+        id="@+id/btnSale"
+       icon="@drawable/icon_2shou"
+        title="特价" />
+</tabs>
+    <!--barColorWhenSelected="#43B7EA"     当点击的时候整个bottomBar都会变换颜色-->

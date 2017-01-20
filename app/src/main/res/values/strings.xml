@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">mytestdemo</string>
+
+    <string name="loading">加载中...</string>
+    <string name="please_wait">请稍后</string>
+    <string name="net_not_ok">当前网络不可用</string>
+    <string name="bad_request">请求失败，请稍后重试</string>
+</resources>

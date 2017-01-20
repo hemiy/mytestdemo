@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/btn_showCommon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="showCommon"
+        android:text="显示普通 " />
+
+    <Button
+        android:id="@+id/btn_showContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="showCommon2"
+        android:text="显示标题和内容" />
+
+    <Button
+        android:id="@+id/btn_shwoWarning"
+        android:onClick="showCommon3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="显示警告" />
+
+    <Button
+        android:id="@+id/btn_showSuccess"
+        android:onClick="showCommon4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="显示成功" />
+
+    <Button
+        android:onClick="showCommon5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="显示custom" />
+
+
+    <Button
+        android:onClick="showCommon6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="显示custom" />
+</FrameLayout>

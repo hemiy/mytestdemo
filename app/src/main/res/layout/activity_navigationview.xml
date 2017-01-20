@@ -1,0 +1,36 @@
+<android.support.v4.widget.DrawerLayout android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Content -->
+    <FrameLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <!--第2种是实现方法-->
+    <ListView
+        android:id="@+id/id_lv_left_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:paddingTop="0dp"
+        android:background="#ffffffff"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:listSelector="?attr/selectableItemBackground"
+        />
+
+    <!--<android.support.design.widget.NavigationView-->
+        <!--android:id="@+id/navigation"-->
+        <!--android:layout_width="240dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="start"-->
+        <!--app:headerLayout="@layout/header"-->
+        <!--app:menu="@menu/drawer_menu"/>-->
+</android.support.v4.widget.DrawerLayout>
+    <!--app:headerLayout接收一个layout，作为导航菜单顶部的Header，可选项。-->
+    <!--app:menu接收一个menu，作为导航菜单的菜单项，几乎是必选项，不然这个控件就失-->

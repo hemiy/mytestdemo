@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/edit_text_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入邮箱"
+            android:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edit_text_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入密码"
+            android:inputType="numberPassword" />
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:text="登录" />
+
+</LinearLayout>
+    <!--&#45;&#45;TextInputLayout 控件表现得就像LinearLayout 一样，它是一个容器。-->
+    <!--TextInputLayout 中只能放一个子元素，和ScrollView有点类似，并且子元素必须是EditText；-->
+    <!--TextInputLayout 实现的功能就是当EditText中输入第一个字母要隐藏hint的时候，-->
+    <!--TextInputLayout中会出现一个悬浮的标签来显示这个hint，还负责一个炫酷的的material 动画-->

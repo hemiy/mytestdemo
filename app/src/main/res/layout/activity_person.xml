@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+ >
+
+ 
+      <Button 
+        android:id="@+id/btnAdd"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="增加"
+          android:textColor="@color/white"
+          android:background="@color/blue"
+        />
+      
+        <Button
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+        android:id="@+id/btnAdd1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="增加1"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:background="@color/blue"
+        android:id="@+id/btnDel"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="删除某个obj"
+        />
+      
+    <Button
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:background="@color/blue"
+        android:id="@+id/btnUpdate"
+        android:layout_toRightOf="@+id/save"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="修改表里所有数据"
+        />
+       <Button
+           android:layout_marginTop="10dp"
+           android:textColor="@color/white"
+           android:background="@color/blue"
+        android:id="@+id/btnQuery"
+        android:layout_toRightOf="@+id/read"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="查询"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:background="@color/blue"
+        android:id="@+id/btnRawQuery"
+        android:layout_toRightOf="@+id/read"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="传统查询"
+        />
+    <TextView
+        android:id="@+id/result"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:layout_below="@+id/save"
+        android:layout_height="wrap_content"
+        android:text="hello world" />
+
+</LinearLayout>
