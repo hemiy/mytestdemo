@@ -87,7 +87,6 @@ public class RealmActivity extends Activity implements View.OnClickListener {
                         dog.setAge(12);
                         dog.setId(1);
                         realm.copyToRealmOrUpdate(dog); //完成后会自动关闭事务
-
                     }
                 });
 
@@ -96,7 +95,6 @@ public class RealmActivity extends Activity implements View.OnClickListener {
                 break;
 
             case R.id.btnInsert2:
-
                 mRealm.beginTransaction();
                 Dog dog = new Dog();
                 dog.setName("jim");
@@ -135,6 +133,11 @@ public class RealmActivity extends Activity implements View.OnClickListener {
                 //更新
                 //先找到对应的数据 通过名字去查询
                 final Dog dd = mRealm.where(Dog.class).equalTo("name","hemiy").findFirst();
+              if(dd.isValid()){
+                  Toast.makeText(this, "存在", Toast.LENGTH_SHORT).show();
+              }else{
+                  Toast.makeText(this, "不存在", Toast.LENGTH_SHORT).show();
+              }
                 //直接修改即可
                 mRealm.executeTransaction(new Realm.Transaction() {
                     @Override
