@@ -18,7 +18,6 @@ import io.realm.RealmResults;
 
 /**
  * 一个流行的数据库 建表的过程比较简单,但是操作尤其是添加新表的时候略微繁琐
- * <p>
  * http://www.jianshu.com/p/50e0efb66bdf
  * http://mp.weixin.qq.com/s?__biz=MzA5MzI3NjE2MA==&mid=2650238381&idx=1&sn=a0fc72220763166ca2e34519ff2055b3&chksm=88639cc2bf1415d40d466e76945338bc88efae957d63e3ea026c801f05883b485d185ffe0b73&mpshare=1&scene=23&srcid=0119Z3jYSu8dDHJDA9RGwT7F#rd
  * Created by hemiy on 17/1/19 16:34.
@@ -108,12 +107,6 @@ public class RealmActivity extends Activity implements View.OnClickListener {
                 dog.setAge(2100);
                 dog.setId(3);
                 mRealm.copyToRealmOrUpdate(dog);
-
-//                Cat cat=new Cat();
-//                cat.setAge(100);
-//                cat.setName("jim");
-//                mRealm.insertOrUpdate(cat);
-
                 mRealm.commitTransaction();
                 Toast.makeText(this, "2222插入成功", Toast.LENGTH_SHORT).show();
                 break;
@@ -161,7 +154,6 @@ public class RealmActivity extends Activity implements View.OnClickListener {
                 break;
         }
     }
-
 
     @Override
     protected void onDestroy() {
