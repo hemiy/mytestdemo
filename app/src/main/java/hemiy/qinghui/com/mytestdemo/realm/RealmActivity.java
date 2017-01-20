@@ -155,6 +155,7 @@ public class RealmActivity extends Activity implements View.OnClickListener {
                 });
                 Toast.makeText(this, "更新成功", Toast.LENGTH_SHORT).show();
                 break;
+
             default:
 
                 break;
