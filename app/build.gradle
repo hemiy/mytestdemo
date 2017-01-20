@@ -93,4 +93,7 @@ dependencies {
     compile files('libs/lite-orm-1.9.2.jar')
     //强大的日志处理工具
     compile 'com.orhanobut:logger:1.15'
+    //下雪的view
+    compile 'com.github.jetradarmobile:android-snowfall:1.1.6'
+
 }
