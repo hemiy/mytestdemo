@@ -91,7 +91,7 @@ public class RealmActivity extends Activity implements View.OnClickListener {
                     }
                 });
 
-                Toast.makeText(this, "11111插入成功", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "第一次插入成功", Toast.LENGTH_SHORT).show();
 
                 break;
 
@@ -104,7 +104,7 @@ public class RealmActivity extends Activity implements View.OnClickListener {
                 dog.setId(3);
                 mRealm.copyToRealmOrUpdate(dog);
                 mRealm.commitTransaction();
-                Toast.makeText(this, "2222插入成功", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "第2次插入成功", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.btnDelete:
