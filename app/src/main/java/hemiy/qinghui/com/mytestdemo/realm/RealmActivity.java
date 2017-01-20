@@ -88,10 +88,6 @@ public class RealmActivity extends Activity implements View.OnClickListener {
                         dog.setId(1);
                         realm.copyToRealmOrUpdate(dog); //完成后会自动关闭事务
 
-//                        Cat cat=new Cat();
-//                        cat.setAge(100);
-//                        cat.setName("jim");
-//                        realm.insertOrUpdate(cat);
                     }
                 });
 
