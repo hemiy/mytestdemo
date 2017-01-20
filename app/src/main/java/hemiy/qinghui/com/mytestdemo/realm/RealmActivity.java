@@ -133,7 +133,7 @@ public class RealmActivity extends Activity implements View.OnClickListener {
 
             case R.id.btnUpdate:
                 //更新
-                //先找到对应的数据
+                //先找到对应的数据 通过名字去查询
                 final Dog dd = mRealm.where(Dog.class).equalTo("name","hemiy").findFirst();
                 //直接修改即可
                 mRealm.executeTransaction(new Realm.Transaction() {
