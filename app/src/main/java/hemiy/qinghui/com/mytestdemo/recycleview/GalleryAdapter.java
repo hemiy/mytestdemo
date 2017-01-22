@@ -35,6 +35,19 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.ViewHold
         this.mOnItemClickLitener = mOnItemClickLitener;
     }
 
+
+
+    public interface OnLongItemClickLitener{
+       void onLongItemClickLitener(View view, int position);
+    }
+
+
+    private OnLongItemClickLitener mOnLongItemClickLitener;
+
+    public void setOnLongItemClickLitener(OnLongItemClickLitener mOnLongItemClickLitener) {
+        this.mOnLongItemClickLitener = mOnLongItemClickLitener;
+    }
+
     public GalleryAdapter(Context context, List<Integer> datats)
     {
         mInflater = LayoutInflater.from(context);
@@ -46,13 +59,17 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.ViewHold
 //    这个View相当于我们ListView getView中的convertView （即：我们需要inflate的item布局需要传入）。
     public static class ViewHolder extends RecyclerView.ViewHolder
     {
+        private ImageView mImg;
+        private TextView mTxt;
+
         public ViewHolder(View arg0)
         {
             super(arg0);
+            mImg = (ImageView) arg0.findViewById(R.id.id_index_gallery_item_image);
+            mTxt= (TextView) arg0.findViewById(R.id.id_index_gallery_item_text);
         }
 
-        ImageView mImg;
-        TextView mTxt;
+
     }
 
     @Override
@@ -62,19 +79,14 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.ViewHold
     }
 
 
-    //以他把getView这个方法变为了onCreateViewHolder
+    //这里把getView这个方法变为了onCreateViewHolder
     /**
      * 创建ViewHolder
      */
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i)
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int i)
     {
-        View view = mInflater.inflate(R.layout.item_for_recycleview,
-                viewGroup, false);
-        ViewHolder viewHolder = new ViewHolder(view);
-        viewHolder.mImg = (ImageView) view.findViewById(R.id.id_index_gallery_item_image);
-        viewHolder.mTxt= (TextView) view.findViewById(R.id.id_index_gallery_item_text);
-        return viewHolder;
+        return new ViewHolder(mInflater.inflate(R.layout.item_for_recycleview, parent, false));
     }
 
     /**
@@ -97,6 +109,17 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.ViewHold
                     mOnItemClickLitener.onItemClick(viewHolder.itemView, i);
                 }
             });
+
+            if(mOnLongItemClickLitener!=null){
+                viewHolder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
+                    @Override
+                    public boolean onLongClick(View v) {
+                        mOnLongItemClickLitener.onLongItemClickLitener(viewHolder.itemView,i);
+                        return true;
+                    }
+                });
+            }
+
 
         }
     }

@@ -59,7 +59,6 @@ public class RecycleViewActivity extends Activity {
         linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(linearLayoutManager);
 
-
         //设置分割线
         Divider divider = new Divider(new ColorDrawable(getResources().getColor(R.color.blue)), OrientationHelper.VERTICAL);
         //单位:px
