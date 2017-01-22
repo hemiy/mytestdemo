@@ -12,6 +12,8 @@ import hemiy.qinghui.com.mytestdemo.R;
 import info.hoang8f.widget.FButton;
 
 /**
+ * 一个数字滚动的textview
+ * https://github.com/Bakumon/NumberAnimTextView
  * Created by hemiy on 17/1/22 15:58.
  */
 

@@ -50,6 +50,20 @@
         fbutton:cornerRadius="3dp"
         />
 
+    <hemiy.qinghui.com.mytestdemo.numberanimtextview.NumberAnimTextView
+       android:id="@+id/tv1"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
+    <hemiy.qinghui.com.mytestdemo.numberanimtextview.NumberAnimTextView
+        android:id="@+id/tv2"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
