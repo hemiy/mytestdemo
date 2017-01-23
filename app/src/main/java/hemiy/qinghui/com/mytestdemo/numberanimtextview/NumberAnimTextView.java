@@ -8,6 +8,7 @@ import android.animation.TypeEvaluator;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.TextView;
 
@@ -31,14 +32,17 @@ public class NumberAnimTextView extends TextView {
 
     public NumberAnimTextView(Context context) {
         super(context);
+        Log.i("tag","new的view");
     }
 
     public NumberAnimTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
+        Log.i("tag","xml的view");
     }
 
     public NumberAnimTextView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        Log.i("tag","带有自定义属性的view");
     }
 
     public void setNumberString(String number) {

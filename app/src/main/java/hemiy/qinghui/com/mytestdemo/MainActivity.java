@@ -31,6 +31,7 @@ import hemiy.qinghui.com.mytestdemo.liteorm.PersonActivity;
 import hemiy.qinghui.com.mytestdemo.loadingview.LoadIngView;
 import hemiy.qinghui.com.mytestdemo.materialdialog.MateraiDialogActivity;
 import hemiy.qinghui.com.mytestdemo.navigationview.NaviActivity;
+import hemiy.qinghui.com.mytestdemo.numberanimtextview.NumberAnimTextViewAcitivity;
 import hemiy.qinghui.com.mytestdemo.okhttp.OkHttpActivity;
 import hemiy.qinghui.com.mytestdemo.photopicker.PhotoPicker2;
 import hemiy.qinghui.com.mytestdemo.progressbtn.ProgressButtonActivity;
@@ -142,6 +143,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnRealm;
     @BindView(R.id.btnSnow)
     Button btnSnow;
+    @BindView(R.id.btnNumberAnimTextview)
+    Button btnNumberAnimTextview;
 
     private Button btnBus;
     private Button btnRefresh;
@@ -221,6 +224,7 @@ public class MainActivity extends AppCompatActivity {
         btnRetrfitNew.setOnClickListener(myBtnClick); //retrofit实战
         btnRealm.setOnClickListener(myBtnClick);
         btnSnow.setOnClickListener(myBtnClick); //下雪视图
+        btnNumberAnimTextview.setOnClickListener(myBtnClick); //下雪视图
 
     }
 
@@ -313,8 +317,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, RetrofitPraticeActivity.class));
             } else if (id == R.id.btnRealm) {
                 startActivity(new Intent(MainActivity.this, RealmActivity.class));
-            }else if(id==R.id.btnSnow){
+            } else if (id == R.id.btnSnow) {
                 startActivity(new Intent(MainActivity.this, SnowFallActivity.class));
+            } else if (id==R.id.btnNumberAnimTextview){
+                startActivity(new Intent(MainActivity.this, NumberAnimTextViewAcitivity.class));
             }
         }
     }

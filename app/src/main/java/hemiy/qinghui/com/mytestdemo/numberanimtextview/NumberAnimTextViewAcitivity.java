@@ -26,6 +26,10 @@ public class NumberAnimTextViewAcitivity extends Activity {
     FButton btnDemo3;
     @BindView(R.id.ll_report)
     LinearLayout llReport;
+    @BindView(R.id.tv1)
+    NumberAnimTextView tv1;
+    @BindView(R.id.tv2)
+    NumberAnimTextView tv2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,11 +42,27 @@ public class NumberAnimTextViewAcitivity extends Activity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btnDemo1:
+                //直接显示跳动的数字
+                tv1.setNumberString("100.5");
+                tv1.setDuration(5000);
                 break;
             case R.id.btnDemo2:
+                //设置数字增加范围和前缀
+                tv2.setPrefixString("$");
+                tv2.setNumberString("50","200");
+                tv1.setDuration(1300);
                 break;
             case R.id.btnDemo3:
                 break;
         }
     }
 }
+
+//// 设置前缀
+//mNumberAnimTextView.setPrefixString("¥");
+//// 设置后缀
+//        mNumberAnimTextView.setPostfixString("%");
+//// 设置动画时长
+//        mNumberAnimTextView.setDuration(2000);
+//// 设置数字增加范围
+//        mNumberAnimTextView.setNumberString("19.75", "99.75");
