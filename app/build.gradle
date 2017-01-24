@@ -95,5 +95,7 @@ dependencies {
     compile 'com.orhanobut:logger:1.15'
     //下雪的view
     compile 'com.github.jetradarmobile:android-snowfall:1.1.6'
+    //刮刮卡效果的view
+    compile 'com.github.cooltechworks:ScratchView:v1.1'
 
 }
