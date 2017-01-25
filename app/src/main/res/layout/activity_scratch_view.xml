@@ -1,25 +1,61 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
     android:id="@+id/ll_report"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    >
+    android:gravity="center_horizontal">
 
 
 
     <com.cooltechworks.views.ScratchImageView
-        android:id="@+id/sample_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/scImage"
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:background="@android:color/white"
         android:src="@drawable/ic_launcher"
         />
     <com.cooltechworks.views.ScratchTextView
+        android:id="@+id/scText"
+        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center|end"
         android:text="再来一次"
-        android:textSize="15sp"
+        android:textSize="35sp"
         android:textStyle="bold" />
+
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnTest"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        fbutton:buttonColor="@color/blue"
+        fbutton:shadowEnabled="false"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="3dp"
+        />
+
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnChange"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text转化显示22"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        fbutton:buttonColor="@color/material_green"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="3dp"
+        />
 
 </LinearLayout>

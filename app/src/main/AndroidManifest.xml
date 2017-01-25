@@ -161,6 +161,9 @@
         <!--滚动视图的textview-->
         <activity android:name=".numberanimtextview.NumberAnimTextViewAcitivity"/>
 
+        <!--刮刮卡-->
+        <activity android:name=".scratchview.ScratchViewActivity"/>
+
         <meta-data android:name="hemiy.qinghui.com.mytestdemo.glide.ConfigurationGlide"
             android:value="GlideModule"/>
 

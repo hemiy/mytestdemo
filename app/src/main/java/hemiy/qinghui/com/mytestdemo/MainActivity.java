@@ -44,6 +44,7 @@ import hemiy.qinghui.com.mytestdemo.retrofitpractice.RetrofitPraticeActivity;
 import hemiy.qinghui.com.mytestdemo.rxbus.RxbusActivity;
 import hemiy.qinghui.com.mytestdemo.rxbus.RxbusActivity2;
 import hemiy.qinghui.com.mytestdemo.rxjava.RxjavaActivity;
+import hemiy.qinghui.com.mytestdemo.scratchview.ScratchViewActivity;
 import hemiy.qinghui.com.mytestdemo.slidingpanellayout.SlidingActivity;
 import hemiy.qinghui.com.mytestdemo.snackbar.SnackBarActivity;
 import hemiy.qinghui.com.mytestdemo.snowfall.SnowFallActivity;
@@ -53,6 +54,7 @@ import hemiy.qinghui.com.mytestdemo.tablayout.TabLayoutActivity;
 import hemiy.qinghui.com.mytestdemo.textinputlayout.TextInputActivity;
 import hemiy.qinghui.com.mytestdemo.times.TimeActivity;
 import hemiy.qinghui.com.mytestdemo.togglebutton.ToggleButtonActivity;
+import hemiy.qinghui.com.mytestdemo.view.PersonTest;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -145,6 +147,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnSnow;
     @BindView(R.id.btnNumberAnimTextview)
     Button btnNumberAnimTextview;
+    @BindView(R.id.btnScratchview)
+    Button btnScratchview;
 
     private Button btnBus;
     private Button btnRefresh;
@@ -225,6 +229,7 @@ public class MainActivity extends AppCompatActivity {
         btnRealm.setOnClickListener(myBtnClick);
         btnSnow.setOnClickListener(myBtnClick); //下雪视图
         btnNumberAnimTextview.setOnClickListener(myBtnClick); //下雪视图
+        btnScratchview.setOnClickListener(myBtnClick); //刮刮卡视图
 
     }
 
@@ -302,7 +307,7 @@ public class MainActivity extends AppCompatActivity {
             } else if (id == R.id.btnSnackBar) {
                 startActivity(new Intent(MainActivity.this, SnackBarActivity.class));
             } else if (id == R.id.btnCircleCountdown) {
-                startActivity(new Intent(MainActivity.this, CounterDownActivity.class));
+                startActivity(new Intent(MainActivity.this, CounterDownActivity.class));//环形倒计时
             } else if (id == R.id.btnSlidingPanel) {
                 startActivity(new Intent(MainActivity.this, SlidingActivity.class));
             } else if (id == R.id.btnBottomBar) {
@@ -310,18 +315,21 @@ public class MainActivity extends AppCompatActivity {
             } else if (id == R.id.btnLiteOrm) {
                 startActivity(new Intent(MainActivity.this, PersonActivity.class));
             } else if (id == R.id.btnSpanString) {
-                startActivity(new Intent(MainActivity.this, SpanStringBuilderActivity.class));
+                startActivity(new Intent(MainActivity.this, SpanStringBuilderActivity.class));//变化的字体颜色
             } else if (id == R.id.btnFragment) {
                 startActivity(new Intent(MainActivity.this, FragmentDemoActivity.class));
             } else if (id == R.id.btnRetrfitNew) {
-                startActivity(new Intent(MainActivity.this, RetrofitPraticeActivity.class));
+                startActivity(new Intent(MainActivity.this, RetrofitPraticeActivity.class));//联系
             } else if (id == R.id.btnRealm) {
-                startActivity(new Intent(MainActivity.this, RealmActivity.class));
+                startActivity(new Intent(MainActivity.this, RealmActivity.class));//数据库
             } else if (id == R.id.btnSnow) {
-                startActivity(new Intent(MainActivity.this, SnowFallActivity.class));
-            } else if (id==R.id.btnNumberAnimTextview){
-                startActivity(new Intent(MainActivity.this, NumberAnimTextViewAcitivity.class));
+                startActivity(new Intent(MainActivity.this, SnowFallActivity.class));//下雪视图
+            } else if (id == R.id.btnNumberAnimTextview) {
+                startActivity(new Intent(MainActivity.this, NumberAnimTextViewAcitivity.class));//数字滚动
+            }else if (id == R.id.btnScratchview) {
+                startActivity(new Intent(MainActivity.this, ScratchViewActivity.class));//刮刮卡视图
             }
+            new PersonTest.Builder().mName("hemiy").build();
         }
     }
 
