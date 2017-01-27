@@ -54,7 +54,6 @@ import hemiy.qinghui.com.mytestdemo.tablayout.TabLayoutActivity;
 import hemiy.qinghui.com.mytestdemo.textinputlayout.TextInputActivity;
 import hemiy.qinghui.com.mytestdemo.times.TimeActivity;
 import hemiy.qinghui.com.mytestdemo.togglebutton.ToggleButtonActivity;
-import hemiy.qinghui.com.mytestdemo.view.PersonTest;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -329,7 +328,6 @@ public class MainActivity extends AppCompatActivity {
             }else if (id == R.id.btnScratchview) {
                 startActivity(new Intent(MainActivity.this, ScratchViewActivity.class));//刮刮卡视图
             }
-            new PersonTest.Builder().mName("hemiy").build();
         }
     }
 
