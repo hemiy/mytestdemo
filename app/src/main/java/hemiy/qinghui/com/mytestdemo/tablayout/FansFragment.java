@@ -38,7 +38,6 @@ public class FansFragment extends Fragment  {
 		view = inflater.inflate(R.layout.fragment_fans,null);
 		tv= (TextView) view.findViewById(R.id.tv_item);
 		tv.setText(str);
-
 		return view;
 	}
 
