@@ -25,13 +25,9 @@ public class FansFragment extends Fragment  {
 	private View view;
 	private String str;
 	private TextView tv;
-
-
-
    public FansFragment(String str){
 	   this.str=str;
    }
-
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
