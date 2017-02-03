@@ -89,9 +89,7 @@ public class RealmActivity extends Activity implements View.OnClickListener {
                         realm.copyToRealmOrUpdate(dog); //完成后会自动关闭事务
                     }
                 });
-
                 Toast.makeText(this, "第一次插入成功", Toast.LENGTH_SHORT).show();
-
                 break;
 
             case R.id.btnInsert2:
