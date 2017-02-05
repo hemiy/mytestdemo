@@ -34,7 +34,6 @@ public class PhotoPicker2 extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_photo_picker2);
         ButterKnife.bind(this);
     }

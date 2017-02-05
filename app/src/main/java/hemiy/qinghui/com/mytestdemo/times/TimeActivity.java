@@ -28,13 +28,10 @@ public class TimeActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_times);
         ButterKnife.bind(this);
-
-
         Calendar nextYear = Calendar.getInstance();
         nextYear.add(Calendar.YEAR, 1);
         Date today = new Date();
         calendarView.init(today, nextYear.getTime()).withSelectedDate(today);
-
         Log.i("hemiy","选择的时间是"+calendarView.getSelectedDate());
 
 
