@@ -3,7 +3,6 @@ package hemiy.qinghui.com.mytestdemo.times;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.util.Log;
 
 import com.squareup.timessquare.CalendarPickerView;
 
@@ -32,8 +31,6 @@ public class TimeActivity extends Activity {
         nextYear.add(Calendar.YEAR, 1);
         Date today = new Date();
         calendarView.init(today, nextYear.getTime()).withSelectedDate(today);
-        Log.i("hemiy","选择的时间是"+calendarView.getSelectedDate());
-
-
+//        Log.i("hemiy","选择的时间是"+calendarView.getSelectedDate());
     }
 }
