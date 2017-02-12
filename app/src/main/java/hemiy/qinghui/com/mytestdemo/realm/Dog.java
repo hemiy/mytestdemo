@@ -12,7 +12,6 @@ public class Dog extends RealmObject {
     @PrimaryKey
     private int id; //主键
 
-
     private String name;
     private int age;
 
