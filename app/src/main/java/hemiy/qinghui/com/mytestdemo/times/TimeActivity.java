@@ -19,6 +19,7 @@ import hemiy.qinghui.com.mytestdemo.R;
  * Created by hemiy on 16/6/10.
  */
 public class TimeActivity extends Activity {
+
     @BindView(R.id.calendar_view)
     CalendarPickerView calendarView;
 
