@@ -37,5 +37,4 @@ public class FansFragment extends Fragment  {
 		return view;
 	}
 
-
 }
