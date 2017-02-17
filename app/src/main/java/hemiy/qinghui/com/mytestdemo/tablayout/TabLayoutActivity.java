@@ -87,7 +87,6 @@ public class TabLayoutActivity extends FragmentActivity {
                 }else if(position==3){
                     viewPager.setCurrentItem(3);
                 }
-
             }
 
             @Override

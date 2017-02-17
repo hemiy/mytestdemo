@@ -79,8 +79,6 @@ public class MainActivity extends AppCompatActivity {
     Button btnArc;
     @BindView(R.id.btn_navigation)
     Button btnNavigation;
-//    @BindView(R.id.btn_actionsheet)
-//    Button btnActionsheet;
 
     @BindView(R.id.btnOkHttp)
     Button btnOkHttp;
@@ -199,7 +197,6 @@ public class MainActivity extends AppCompatActivity {
         btnCountDown.setOnClickListener(myBtnClick);
         btnArc.setOnClickListener(myBtnClick);
         btnNavigation.setOnClickListener(myBtnClick);
-//        btnActionsheet.setOnClickListener(myBtnClick);
         btn_actionsheet1.setOnClickListener(myBtnClick);
         btnOkHttp.setOnClickListener(myBtnClick);
         btnToggleButton.setOnClickListener(myBtnClick);
@@ -229,7 +226,6 @@ public class MainActivity extends AppCompatActivity {
         btnSnow.setOnClickListener(myBtnClick); //下雪视图
         btnNumberAnimTextview.setOnClickListener(myBtnClick); //下雪视图
         btnScratchview.setOnClickListener(myBtnClick); //刮刮卡视图
-
     }
 
 
@@ -330,6 +326,4 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-
-
 }
