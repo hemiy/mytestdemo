@@ -28,7 +28,6 @@ public class TabLayoutActivity extends FragmentActivity {
     ViewPager viewPager;
     private Find_tab_Adapter adapter;
 
-
     private List<Fragment> list_fragment;                                //定义要装fragment的列表
     private List<String> list_title;                                     //tab名称列表
     @Override
@@ -42,7 +41,6 @@ public class TabLayoutActivity extends FragmentActivity {
     }
 
     private void initDatas() {
-
         //将fragment装进列表中
         list_fragment = new ArrayList<>();
         list_fragment.add(new FansFragment("热门推荐"));
