@@ -27,7 +27,6 @@ public class TabLayoutActivity extends FragmentActivity {
     @BindView(R.id.vp_FindFragment_pager)
     ViewPager viewPager;
     private Find_tab_Adapter adapter;
-
     private List<Fragment> list_fragment;                                //定义要装fragment的列表
     private List<String> list_title;                                     //tab名称列表
     @Override
