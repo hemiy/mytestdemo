@@ -97,6 +97,5 @@ public class TabLayoutActivity extends FragmentActivity {
             }
         });
 
-
     }
 }

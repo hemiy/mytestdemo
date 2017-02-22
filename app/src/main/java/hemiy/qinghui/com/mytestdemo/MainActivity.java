@@ -101,7 +101,6 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.btnMateriaDialog)
     Button btnMateriaDialog;
 
-
     @BindView(R.id.btnRxjava)
     Button btnRxjava;
 
