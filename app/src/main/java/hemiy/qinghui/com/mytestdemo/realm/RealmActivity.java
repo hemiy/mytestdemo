@@ -145,7 +145,6 @@ public class RealmActivity extends Activity implements View.OnClickListener {
                   Toast.makeText(this, "不存在", Toast.LENGTH_SHORT).show();
                   return;
               }
-
                 break;
 
             default:
@@ -161,7 +160,6 @@ public class RealmActivity extends Activity implements View.OnClickListener {
         if (mRealm != null) {
             mRealm.close();
         }
-
     }
 }
 
