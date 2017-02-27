@@ -22,8 +22,6 @@ import io.realm.RealmResults;
  * http://mp.weixin.qq.com/s?__biz=MzA5MzI3NjE2MA==&mid=2650238381&idx=1&sn=a0fc72220763166ca2e34519ff2055b3&chksm=88639cc2bf1415d40d466e76945338bc88efae957d63e3ea026c801f05883b485d185ffe0b73&mpshare=1&scene=23&srcid=0119Z3jYSu8dDHJDA9RGwT7F#rd
  * Created by hemiy on 17/1/19 16:34.
  */
-
-
 //https://realm.io/docs/java/latest/#installation 官网
 
 public class RealmActivity extends Activity implements View.OnClickListener {
