@@ -41,6 +41,7 @@ public class RealmActivity extends Activity implements View.OnClickListener {
     @BindView(R.id.btnUpdate)
     Button btnUpdate;
 
+
     private Realm mRealm; //一个开源的数据库
 
     @Override
