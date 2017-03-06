@@ -172,8 +172,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_index);
         ButterKnife.bind(this); //依赖注入的框架
         Logger.d("log日志执行了");
-//        Logger.json(JSON_CONTENT);
-//        Logger.xml(XML_CONTENT);
+        Logger.json(JSON_CONTENT);
+        Logger.xml(XML_CONTENT);
         btnBus = (Button) findViewById(R.id.btn_bus);
         btnRefresh = (Button) findViewById(R.id.btn_fresh);
         btnLoad = (Button) findViewById(R.id.btn_load);

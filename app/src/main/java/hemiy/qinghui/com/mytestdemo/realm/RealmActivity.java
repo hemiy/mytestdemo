@@ -40,8 +40,7 @@ public class RealmActivity extends Activity implements View.OnClickListener {
     LinearLayout llReport;
     @BindView(R.id.btnUpdate)
     Button btnUpdate;
-
-
+    
 
     private Realm mRealm; //一个开源的数据库 有专门的网站
 
