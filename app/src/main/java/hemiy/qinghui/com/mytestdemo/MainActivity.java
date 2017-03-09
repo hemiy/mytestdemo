@@ -157,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
             "\"time\":\"17:05\",\"isRadar\":\"1\",\"Radar\":\"JC_RADAR_AZ9010_JB\"," +
             "\"njd\":\"暂无实况\",\"qy\":\"1011\",\"rain\":\"0\"}}";
 
-//new comment
+//new comment 20170307
     private String XML_CONTENT = "<china dn=\"nay\"><city quName=\"黑龙江\" pyName=\"heilongjiang\" " +
             "cityname=\"哈尔滨\" state1=\"1\" state2=\"1\" stateDetailed=\"多云\"/><city quName=\"吉林\"" +
             " pyName=\"jilin\" " +
