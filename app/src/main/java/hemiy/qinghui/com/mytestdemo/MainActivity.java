@@ -168,8 +168,6 @@ public class MainActivity extends AppCompatActivity {
             "quName=\"海南\" pyName=\"hainan\" " +
             "cityname=\"海口\" state1=\"22\" state2=\"21\" stateDetailed=\"中到大雨转小到中雨\"/></china>";
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
