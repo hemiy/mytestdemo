@@ -146,11 +146,15 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.btnScratchview)
     Button btnScratchview;
 
+
+
     private Button btnBus;
     private Button btnRefresh;
     private Button btnLoad;
     private Button btnSweet;
     private Button btn_actionsheet1;
+
+
 
     //json comment
     private String JSON_CONTENT = "{\"weatherinfo\":{\"city\":\"北京\",\"cityid\":\"101010100\"," +
