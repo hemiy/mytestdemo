@@ -146,6 +146,9 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.btnScratchview)
     Button btnScratchview;
 
+
+
+
     private Button btnBus;
     private Button btnRefresh;
     private Button btnLoad;
