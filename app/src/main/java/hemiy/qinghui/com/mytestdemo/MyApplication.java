@@ -37,14 +37,14 @@ public class MyApplication extends Application{
         return liteOrm;
     }
 
+    //自带数据库的创建方法
     private void createDataBase() {
         if (liteOrm == null) {
             DataBaseConfig config = new DataBaseConfig(this, "liteorm.db");
             config.debugged = true; // 开启日志
             config.dbVersion = 1; // 设置数据库版本号
             config.onUpdateListener = null; // 设置
-            liteOrm = LiteOrm.newSingleInstance(config);
+            liteOrm = LiteOrm.newSingleInstance(config);//创建一个单例模式的数据库
         }
     }
-
 }
