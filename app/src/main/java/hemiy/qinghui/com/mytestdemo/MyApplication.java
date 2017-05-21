@@ -30,6 +30,9 @@ public class MyApplication extends Application{
         Realm.init(this);
     }
 
+
+
+
     /*
          * 获取数据库操作工具
          */
