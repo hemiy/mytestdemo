@@ -17,8 +17,11 @@ import io.realm.Realm;
 public class MyApplication extends Application{
     private  static LiteOrm liteOrm=null;
     private static String TAG = "tag";
+
+
     @Override
     public void onCreate() {
+
         super.onCreate();
         x.Ext.init(this);
         x.Ext.setDebug(BuildConfig.DEBUG); // 是否输出debug日志, 开启debug会影响性能.
@@ -29,9 +32,6 @@ public class MyApplication extends Application{
         //设置新的数据库
         Realm.init(this);
     }
-
-
-
 
     /*
          * 获取数据库操作工具
