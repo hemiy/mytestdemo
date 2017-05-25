@@ -19,6 +19,11 @@ public class MyApplication extends Application{
     private static String TAG = "tag";
 
 
+
+
+
+
+
     @Override
     public void onCreate() {
 
