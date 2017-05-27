@@ -21,13 +21,6 @@ public class MyApplication extends Application{
 
 
 
-
-
-
-
-
-
-
     //update for now
 
     @Override
