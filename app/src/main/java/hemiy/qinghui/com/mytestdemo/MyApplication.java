@@ -19,9 +19,9 @@ public class MyApplication extends Application{
     private static String TAG = "tag";
 
 
-
-
     //update for now
+
+
 
     @Override
     public void onCreate() {
