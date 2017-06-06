@@ -18,17 +18,7 @@ public class MyApplication extends Application{
     private  static LiteOrm liteOrm=null;
     private static String TAG = "tag";
 
-
-
-
     //update for now
-
-
-
-
-
-
-
 
 
     @Override

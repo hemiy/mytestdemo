@@ -10,8 +10,11 @@ import java.util.List;
  * Created by hemiy on 16/6/8.
  */
 public class Find_tab_Adapter extends FragmentPagerAdapter {
+
+
     private List<Fragment> list_fragment;                         //fragment列表
     private List<String> list_Title;                              //tab名的列表
+
 
 
     public Find_tab_Adapter(FragmentManager fm, List<Fragment> list_fragment, List<String> list_Title) {
