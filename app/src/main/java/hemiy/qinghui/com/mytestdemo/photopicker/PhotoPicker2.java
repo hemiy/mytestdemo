@@ -24,6 +24,9 @@ import hemiy.qinghui.com.mytestdemo.glide.MemoAdapter;
  * Created by hemiy on 16/6/6.
  */
 public class PhotoPicker2 extends Activity {
+
+
+
     @BindView(R.id.btn_select_pic)
     Button btnSelectPic;
     @BindView(R.id.gv)
