@@ -25,13 +25,10 @@ import hemiy.qinghui.com.mytestdemo.glide.MemoAdapter;
  */
 public class PhotoPicker2 extends Activity {
 
-
-
     @BindView(R.id.btn_select_pic)
     Button btnSelectPic;
     @BindView(R.id.gv)
     GridView gv;
-
     private MemoAdapter adapter;
 
     @Override

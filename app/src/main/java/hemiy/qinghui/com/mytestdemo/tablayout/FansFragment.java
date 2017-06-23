@@ -23,6 +23,7 @@ import hemiy.qinghui.com.mytestdemo.R;
 public class FansFragment extends Fragment  {
 
 
+
 	private Activity activity;
 	private View view;
 	private String str;
@@ -32,13 +33,13 @@ public class FansFragment extends Fragment  {
    }
 
 
-
-
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
 		view = inflater.inflate(R.layout.fragment_fans,null);
 		tv= (TextView) view.findViewById(R.id.tv_item);
 		tv.setText(str);
+
 		return view;
 	}
 
