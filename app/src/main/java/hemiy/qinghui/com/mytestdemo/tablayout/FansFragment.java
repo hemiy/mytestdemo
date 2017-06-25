@@ -23,14 +23,18 @@ import hemiy.qinghui.com.mytestdemo.R;
 public class FansFragment extends Fragment  {
 
 
-
 	private Activity activity;
+
 	private View view;
+
 	private String str;
+
 	private TextView tv;
+
   	 public FansFragment(String str){
 	   this.str=str;
    }
+
 
 
 	@Override
