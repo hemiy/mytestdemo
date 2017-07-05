@@ -22,10 +22,7 @@ import hemiy.qinghui.com.mytestdemo.R;
 @SuppressLint("ValidFragment")
 public class FansFragment extends Fragment  {
 
-
-
-
-
+	//控件
 	private Activity activity;
 	private View view;
 	private String str;
@@ -33,7 +30,6 @@ public class FansFragment extends Fragment  {
   	 public FansFragment(String str){
 	   this.str=str;
    }
-
 
 
 	@Override
