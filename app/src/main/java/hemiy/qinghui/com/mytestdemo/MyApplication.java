@@ -15,10 +15,10 @@ import io.realm.Realm;
  * Created by hemiy on 16/6/25.
  */
 public class MyApplication extends Application{
-    private  static LiteOrm liteOrm=null;
-    private static String TAG = "tag";
 
     //update for now
+    private  static LiteOrm liteOrm=null;
+    private static String TAG = "tag";
 
 
     @Override
