@@ -2,6 +2,7 @@ package hemiy.qinghui.com.mytestdemo.eventbus;
 
 public class FirstEvent {
 
+    //
     private String mMsg;//消息内容
     private String tag; //消息类型
 
@@ -24,8 +25,7 @@ public class FirstEvent {
     }
 
     public FirstEvent(String msg) {
-
-
+        //构造函数
         mMsg = msg;
     }
 

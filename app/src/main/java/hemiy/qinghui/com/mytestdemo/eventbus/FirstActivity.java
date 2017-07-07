@@ -16,9 +16,8 @@ import hemiy.qinghui.com.mytestdemo.R;
 
 public class FirstActivity extends Activity {
 
-    Button btn;
-    TextView tv;
-
+    private Button btn;
+    private TextView tv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
