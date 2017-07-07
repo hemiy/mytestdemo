@@ -20,7 +20,6 @@ public class MyApplication extends Application{
     private  static LiteOrm liteOrm=null;
     private static String TAG = "tag";
 
-
     @Override
     public void onCreate() {
 

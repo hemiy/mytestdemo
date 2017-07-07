@@ -22,17 +22,16 @@ import hemiy.qinghui.com.mytestdemo.R;
 @SuppressLint("ValidFragment")
 public class FansFragment extends Fragment  {
 
-
 	//控件
 	private Activity activity;
 	private View view;
 	private String str;
 	private TextView tv;
-  	 public FansFragment(String str){
+
+
+	public FansFragment(String str){
 	   this.str=str;
    }
-
-
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -40,7 +39,6 @@ public class FansFragment extends Fragment  {
 		view = inflater.inflate(R.layout.fragment_fans,null);
 		tv= (TextView) view.findViewById(R.id.tv_item);
 		tv.setText(str);
-
 		return view;
 	}
 

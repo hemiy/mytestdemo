@@ -12,7 +12,7 @@ import java.util.List;
 public class Find_tab_Adapter extends FragmentPagerAdapter {
 
 
-
+//
     private List<Fragment> list_fragment;                         //fragment列表
     private List<String> list_Title;                              //tab名的列表
 
