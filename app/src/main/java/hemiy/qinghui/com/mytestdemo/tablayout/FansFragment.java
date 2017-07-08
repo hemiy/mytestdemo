@@ -24,8 +24,12 @@ public class FansFragment extends Fragment  {
 
 	//控件
 	private Activity activity;
+
 	private View view;
+
+
 	private String str;
+
 	private TextView tv;
 
 

@@ -16,7 +16,9 @@ import hemiy.qinghui.com.mytestdemo.R;
 
 public class FirstActivity extends Activity {
 
+
     private Button btn;
+
     private TextView tv;
 
     @Override

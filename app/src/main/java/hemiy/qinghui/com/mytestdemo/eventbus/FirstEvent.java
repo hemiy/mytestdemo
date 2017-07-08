@@ -2,8 +2,8 @@ package hemiy.qinghui.com.mytestdemo.eventbus;
 
 public class FirstEvent {
 
-    //
     private String mMsg;//消息内容
+
     private String tag; //消息类型
 
     public FirstEvent(String mMsg, String tag) {
