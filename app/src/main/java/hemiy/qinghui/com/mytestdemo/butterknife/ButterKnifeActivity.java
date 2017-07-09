@@ -31,10 +31,10 @@ public class ButterKnifeActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //设置视图
         setContentView(R.layout.activity_butter_knife);
+        //绑定控件
         ButterKnife.bind(this);
-
-
     }
 
     @OnClick({R.id.btn_showCommon, R.id.btn_showContent, R.id.btn_shwoWarning, R.id.btn_showSuccess})
