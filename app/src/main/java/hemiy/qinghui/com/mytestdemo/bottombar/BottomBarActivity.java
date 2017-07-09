@@ -32,7 +32,6 @@ public class BottomBarActivity extends Activity {
     BottomBar bottomBar;
     @BindView(R.id.tvContent)
     TextView tvContent;
-
     private Context context;
 
     @Override
@@ -41,7 +40,7 @@ public class BottomBarActivity extends Activity {
         setContentView(R.layout.activity_bottom_bar);
         ButterKnife.bind(this);
         context = this;
-        initViews();
+        initViews();//初始化控件
     }
 
     private void initViews() {

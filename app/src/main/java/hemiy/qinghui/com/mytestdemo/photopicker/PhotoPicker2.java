@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.util.Log;
 import android.widget.Button;
 import android.widget.GridView;
 
@@ -47,8 +46,8 @@ public class PhotoPicker2 extends Activity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (resultCode == RESULT_OK && requestCode == ImageSelectorActivity.REQUEST_IMAGE) {
             ArrayList<String> images = (ArrayList<String>) data.getSerializableExtra(ImageSelectorActivity.REQUEST_OUTPUT);
-            Log.i("tag", "图片的路径是" + images.toString());
-            Log.i("tag", "图片的数量是" + images.size());
+          //  Log.i("tag", "图片的路径是" + images.toString());
+           // Log.i("tag", "图片的数量是" + images.size());
             adapter = new MemoAdapter(PhotoPicker2.this, images);
             gv.setAdapter(adapter);
             adapter.notifyDataSetChanged();

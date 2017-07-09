@@ -24,7 +24,6 @@ public class CommonUtilActivity extends Activity {
     Button btnOpen;
     @BindView(R.id.btnClose)
     Button btnClose;
-
     //私有控件
     private  FlashLight fl;
 

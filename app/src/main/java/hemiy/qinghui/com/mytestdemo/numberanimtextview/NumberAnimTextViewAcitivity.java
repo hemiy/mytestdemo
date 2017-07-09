@@ -65,4 +65,4 @@ public class NumberAnimTextViewAcitivity extends Activity {
 //// 设置动画时长
 //        mNumberAnimTextView.setDuration(2000);
 //// 设置数字增加范围
-//        mNumberAnimTextView.setNumberString("19.75", "99.75");
+//   mNumberAnimTextView.setNumberString("19.75", "99.75");

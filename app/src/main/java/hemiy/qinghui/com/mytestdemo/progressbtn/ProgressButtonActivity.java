@@ -15,6 +15,7 @@ import hemiy.qinghui.com.mytestdemo.R;
  * Created by hemiy on 16/6/10.
  */
 public class ProgressButtonActivity extends Activity {
+
     @BindView(R.id.btnWithText)
     CircularProgressButton btnWithText;
     private int i=0;
@@ -25,7 +26,7 @@ public class ProgressButtonActivity extends Activity {
         setContentView(R.layout.activity_progressbar_btn);
         ButterKnife.bind(this);
 
-
+        //在主线程里面进行ui操作
         this.runOnUiThread(new Runnable() {
             @Override
             public void run() {

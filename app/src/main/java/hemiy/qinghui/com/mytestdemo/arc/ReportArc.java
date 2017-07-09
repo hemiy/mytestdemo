@@ -17,7 +17,7 @@ import android.view.ViewTreeObserver;
 import hemiy.qinghui.com.mytestdemo.R;
 
 /**
- * 圆弧计分、各种率
+ * 圆弧计分、各种率 从网上找的类
  *
  */
 public class ReportArc extends View {

@@ -31,15 +31,11 @@ public class OkHttpActivity extends Activity {
     private Context context;
     protected Dialog dialog;//加载框
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         context=this;
-
-
-
         Map<String, String> params = new HashMap<String, String>();
         params.put("page", page + "");
         params.put("limit", "10");
