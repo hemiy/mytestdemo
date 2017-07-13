@@ -15,7 +15,6 @@ import hemiy.qinghui.com.mytestdemo.R;
  */
 public class ArcActivity extends Activity {
 
-
     @BindView(R.id.ll_report)
     LinearLayout llReport;
 
@@ -25,6 +24,7 @@ public class ArcActivity extends Activity {
         setContentView(R.layout.activity_arc);
         ButterKnife.bind(this);
         llReport.removeAllViews();
+        //
         //score是百分数，数字、mcolor是外圈进度条以及数字的颜色，unit是百分号，title是数字下面的文字
         llReport.addView(new ReportArc(this, 100, 2,"","%") );
     }

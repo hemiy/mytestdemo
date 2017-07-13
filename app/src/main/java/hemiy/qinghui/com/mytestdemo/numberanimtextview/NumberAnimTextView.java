@@ -116,6 +116,7 @@ public class NumberAnimTextView extends TextView {
     }
 
     /**
+     *
      * 格式化 BigDecimal ,小数部分时保留两位小数并四舍五入
      *
      * @param bd 　BigDecimal

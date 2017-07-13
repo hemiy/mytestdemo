@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -21,14 +20,13 @@ public class CountDonwActivity extends Activity {
     @BindView(R.id.tvCountDown)
     TextView tvCode;
 
-
-    //倒计时控件 这里的1000-10 是为了准确计算时间 否则会出现倒计时的跳跃造成不准确
+    //倒计时控件 这里的1000-3 是为了准确计算时间 否则会出现倒计时的跳跃造成不准确
     private CountDownTimer timer = new CountDownTimer(9000, 1000-3) {
 
         @Override
         // millisUntilFinished 倒计时剩余时间
         public void onTick(long millisUntilFinished) {
-            Log.i("hemiy", millisUntilFinished+"");
+           // Log.i("hemiy", millisUntilFinished+"");
             tvCode.setText("重新获取" + "(" + millisUntilFinished / 1000 + "s"	+ ")");
             tvCode.setTextColor(Color.parseColor("#000000"));
             tvCode.setEnabled(false); // 设为不可点击
@@ -64,7 +62,6 @@ public class CountDonwActivity extends Activity {
         if (timer != null) {
             timer.cancel();//退出时候要取消
         }
-
 
     }
 }
