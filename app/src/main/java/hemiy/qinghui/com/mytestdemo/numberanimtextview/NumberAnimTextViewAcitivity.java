@@ -19,6 +19,8 @@ import info.hoang8f.widget.FButton;
 
 public class NumberAnimTextViewAcitivity extends Activity {
 
+
+
     @BindView(R.id.btnDemo1)
     FButton btnDemo1;
     @BindView(R.id.btnDemo2)

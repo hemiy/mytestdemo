@@ -36,11 +36,17 @@ public class OkHttpActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         context=this;
+        //设置上传参数
         Map<String, String> params = new HashMap<String, String>();
+
         params.put("page", page + "");
+
         params.put("limit", "10");
+
         params.put("communityId", "3ff1949b-1f87-466f-a2c0-cb11d79d62af");
+
         params.put("avatarId", "8fd7e834-200e-44b0-b3c9-52b4047a31df");
+
         OkHttpUtil.doPost(context, URLConfig.ACTION_QUERY_ALL_POST, params, new RequestCallback() {
             @Override
             public void onStart(Call call) {
