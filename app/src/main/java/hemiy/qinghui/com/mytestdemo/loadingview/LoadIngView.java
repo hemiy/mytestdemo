@@ -17,13 +17,18 @@ import hemiy.qinghui.com.mytestdemo.R;
 public class LoadIngView extends Activity {
 
     private Button btnShow;
+
+
     private Button btnHide;
+
     private Button btnCode;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading_view);
+
+        //查找控件
         btnShow= (Button) findViewById(R.id.btn_showView);
         btnHide= (Button) findViewById(R.id.btn_hideView);
         btnCode= (Button) findViewById(R.id.btn_code);
@@ -45,7 +50,7 @@ public class LoadIngView extends Activity {
         btnCode.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                    //控件监听
             }
         });
 

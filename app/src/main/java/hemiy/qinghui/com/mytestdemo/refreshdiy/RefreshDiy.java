@@ -27,6 +27,7 @@ import hemiy.qinghui.com.mytestdemo.R;
  * 使用谷歌提供的SwipeRefreshLayout下拉控件进行下拉刷新
  */
 public class RefreshDiy extends Activity {
+    //自定义控件
     private List<String> mList;
     private int mCount;
     private StringAdapter mAdapter;
