@@ -16,11 +16,9 @@ import hemiy.qinghui.com.mytestdemo.R;
  */
 public class LoadIngView extends Activity {
 
+
     private Button btnShow;
-
-
     private Button btnHide;
-
     private Button btnCode;
 
     @Override

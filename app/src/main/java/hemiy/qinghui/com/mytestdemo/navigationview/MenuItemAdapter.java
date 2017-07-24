@@ -21,6 +21,8 @@ import hemiy.qinghui.com.mytestdemo.R;
  * Created by hemiy on 16/6/23.
  */
 public class MenuItemAdapter extends BaseAdapter {
+
+    //内容适配器
     private final int mIconSize;
     private LayoutInflater mInflater;
     private Context mContext;

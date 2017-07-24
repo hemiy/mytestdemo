@@ -6,6 +6,8 @@ import android.text.TextUtils;
  * Created by hemiy on 16/6/23.
  */
 public class LvMenuItem {
+
+    //目录列表
     public LvMenuItem(int icon, String name)
     {
         this.icon = icon;
