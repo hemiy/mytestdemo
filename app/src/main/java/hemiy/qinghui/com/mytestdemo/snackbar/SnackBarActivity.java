@@ -20,6 +20,8 @@ import hemiy.qinghui.com.mytestdemo.R;
  */
 
 public class SnackBarActivity extends Activity {
+
+    //绑定控件
     @BindView(R.id.btn_action)
     Button btnAction;
 
