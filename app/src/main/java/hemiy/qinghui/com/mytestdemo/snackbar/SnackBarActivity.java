@@ -21,17 +21,14 @@ import hemiy.qinghui.com.mytestdemo.R;
 
 public class SnackBarActivity extends Activity {
 
-    //绑定控件
+    //绑定控件 hh
     @BindView(R.id.btn_action)
     Button btnAction;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_snackbar);
-
-
         ButterKnife.bind(this);
     }
 
