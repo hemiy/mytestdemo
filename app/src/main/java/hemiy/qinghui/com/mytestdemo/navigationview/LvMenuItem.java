@@ -8,6 +8,7 @@ import android.text.TextUtils;
 public class LvMenuItem {
 
     //目录列表
+
     public LvMenuItem(int icon, String name)
     {
         this.icon = icon;
