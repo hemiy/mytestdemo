@@ -15,8 +15,11 @@ import hemiy.qinghui.com.mytestdemo.R;
  */
 public class ArcActivity extends Activity {
 
+
     @BindView(R.id.ll_report)
     LinearLayout llReport;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
