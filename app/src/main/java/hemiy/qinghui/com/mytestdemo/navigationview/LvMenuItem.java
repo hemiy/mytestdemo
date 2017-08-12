@@ -7,8 +7,10 @@ import android.text.TextUtils;
  */
 public class LvMenuItem {
 
-    //目录列表
 
+
+
+    //目录列表
     public LvMenuItem(int icon, String name)
     {
         this.icon = icon;
@@ -50,8 +52,9 @@ public class LvMenuItem {
     public static final int TYPE_NO_ICON = 1;
     public static final int TYPE_SEPARATOR = 2;
 
-    int type;
+
     String name;
+    int type;
     int icon;
 
     public String getName() {
