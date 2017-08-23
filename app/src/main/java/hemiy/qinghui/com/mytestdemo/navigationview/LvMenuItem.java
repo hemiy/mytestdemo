@@ -41,20 +41,19 @@ public class LvMenuItem {
     {
         this(NO_ICON, name);
     }
-
     public LvMenuItem()
     {
         this(null);
     }
-
     private static final int NO_ICON = 0;
     public static final int TYPE_NORMAL = 0;
     public static final int TYPE_NO_ICON = 1;
     public static final int TYPE_SEPARATOR = 2;
 
-
     String name;
+
     int type;
+
     int icon;
 
     public String getName() {
