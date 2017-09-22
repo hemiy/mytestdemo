@@ -24,21 +24,18 @@ public class ArcActivity extends Activity {
 
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_arc);
-
-
         ButterKnife.bind(this);
+
         // 注解
         llReport.removeAllViews();
 
+
         //score是百分数，数字、mcolor是外圈进度条以及数字的颜色，unit是百分号，title是数字下面的文字
         llReport.addView(new ReportArc(this, 100, 2,"","%") );
-
 
     }
 }

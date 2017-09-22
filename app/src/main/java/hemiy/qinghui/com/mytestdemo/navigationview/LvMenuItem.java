@@ -51,9 +51,7 @@ public class LvMenuItem {
     public static final int TYPE_SEPARATOR = 2;
 
     String name;
-
     int type;
-
     int icon;
 
     public String getName() {

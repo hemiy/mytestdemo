@@ -27,6 +27,7 @@ public class LoadIngView extends Activity {
         setContentView(R.layout.activity_loading_view);
 
         //查找控件
+
         btnShow= (Button) findViewById(R.id.btn_showView);
         btnHide= (Button) findViewById(R.id.btn_hideView);
         btnCode= (Button) findViewById(R.id.btn_code);
