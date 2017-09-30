@@ -29,13 +29,17 @@ public class LoadIngView extends Activity {
 
         //查找控件
         btnShow= (Button) findViewById(R.id.btn_showView);
+
         btnHide= (Button) findViewById(R.id.btn_hideView);
+
         btnCode= (Button) findViewById(R.id.btn_code);
 
         btnShow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 findViewById(R.id.avloadingIndicatorView).setVisibility(View.VISIBLE);
+
             }
         });
 
