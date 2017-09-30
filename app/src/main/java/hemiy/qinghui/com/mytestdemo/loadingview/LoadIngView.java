@@ -39,6 +39,8 @@ public class LoadIngView extends Activity {
             }
         });
 
+
+
         btnHide.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -55,4 +57,6 @@ public class LoadIngView extends Activity {
         });
 
     }
+
+
 }
