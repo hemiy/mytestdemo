@@ -29,11 +29,10 @@ public class LoadIngView extends Activity {
 
         //查找控件
         btnShow= (Button) findViewById(R.id.btn_showView);
-
         btnHide= (Button) findViewById(R.id.btn_hideView);
-
         btnCode= (Button) findViewById(R.id.btn_code);
 
+        //设置监听事件
         btnShow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

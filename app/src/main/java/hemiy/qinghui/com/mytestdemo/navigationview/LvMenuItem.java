@@ -3,6 +3,7 @@ package hemiy.qinghui.com.mytestdemo.navigationview;
 import android.text.TextUtils;
 
 /**
+ * 目录控件
  * Created by hemiy on 16/6/23.
  */
 public class LvMenuItem {
