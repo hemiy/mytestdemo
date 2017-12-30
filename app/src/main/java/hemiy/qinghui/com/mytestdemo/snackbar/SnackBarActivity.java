@@ -15,7 +15,7 @@ import butterknife.OnClick;
 import hemiy.qinghui.com.mytestdemo.R;
 
 /**
- * snackBar的使用
+ * snackBar的使用 网上的栗子
  * Created by hemiy on 16/10/19 15:38.
  */
 

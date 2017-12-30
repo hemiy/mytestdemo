@@ -17,6 +17,7 @@ import hemiy.qinghui.com.mytestdemo.R;
 public class LoadIngView extends Activity {
 
 
+
     private Button btnShow;
     private Button btnHide;
     private Button btnCode;
@@ -55,7 +56,7 @@ public class LoadIngView extends Activity {
             @Override
             public void onClick(View view) {
                     //控件监听
-                //lalala
+                //添加一些新的的东西
             }
         });
 
