@@ -18,6 +18,7 @@ public class LoadIngView extends Activity {
 
 
 
+    //自定义的控件
     private Button btnShow;
     private Button btnHide;
     private Button btnCode;
@@ -25,9 +26,7 @@ public class LoadIngView extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_loading_view);
-
         //查找控件
         btnShow= (Button) findViewById(R.id.btn_showView);
         btnHide= (Button) findViewById(R.id.btn_hideView);

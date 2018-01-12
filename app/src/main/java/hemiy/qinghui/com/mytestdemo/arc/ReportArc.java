@@ -17,6 +17,7 @@ import android.view.ViewTreeObserver;
 import hemiy.qinghui.com.mytestdemo.R;
 
 /**
+ *
  * 网上的例子
  * 圆弧计分、各种率 从网上找的类
  *
