@@ -13,7 +13,7 @@ import butterknife.OnClick;
 import hemiy.qinghui.com.mytestdemo.R;
 
 /**
- *  一个gitup上的actionSheet
+ *  一个gitup上的actionSheet 模仿ios的
  * https://github.com/baoyongzhang/ActionSheetForAndroid
  * Created by hemiy on 16/8/11.
  */

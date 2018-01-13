@@ -17,7 +17,6 @@ import hemiy.qinghui.com.mytestdemo.R;
 public class LoadIngView extends Activity {
 
 
-
     //自定义的控件
     private Button btnShow;
     private Button btnHide;
