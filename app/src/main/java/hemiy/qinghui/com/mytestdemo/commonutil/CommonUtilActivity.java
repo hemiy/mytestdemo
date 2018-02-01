@@ -20,6 +20,7 @@ import hemiy.qinghui.com.mytestdemo.R;
 
 public class CommonUtilActivity extends Activity {
 
+    //控件绑定
     @BindView(R.id.btnOpen)
     Button btnOpen;
     @BindView(R.id.btnClose)

@@ -19,6 +19,7 @@ import hemiy.qinghui.com.mytestdemo.R;
  */
 public class AsForAndroidActivity extends FragmentActivity implements ActionSheet.ActionSheetListener {
 
+
     @BindView(R.id.btn_action)
     Button btnAction;
 
