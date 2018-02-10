@@ -20,6 +20,8 @@ import hemiy.qinghui.com.mytestdemo.R;
 
 public class CommonUtilActivity extends Activity {
 
+
+
     //控件绑定
     @BindView(R.id.btnOpen)
     Button btnOpen;
@@ -30,10 +32,12 @@ public class CommonUtilActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_com_util);
         ButterKnife.bind(this);
-        fl=new FlashLight();
+        fl=new FlashLight();//初始化一个新的类
+
     }
 
     @OnClick({R.id.btnOpen, R.id.btnClose})
