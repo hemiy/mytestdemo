@@ -38,6 +38,8 @@ public class CommonUtilActivity extends Activity {
         ButterKnife.bind(this);
         fl=new FlashLight();//初始化一个新的类
 
+
+
     }
 
     @OnClick({R.id.btnOpen, R.id.btnClose})
@@ -46,6 +48,7 @@ public class CommonUtilActivity extends Activity {
             case R.id.btnOpen:
                 fl.turnOnFlashLight();
                 break;
+
             case R.id.btnClose:
                 fl.turnOffFlashLight();
                 break;
