@@ -24,10 +24,10 @@ public class MenuItemAdapter extends BaseAdapter {
 
     //内容适配器
     private final int mIconSize;
-
     private LayoutInflater mInflater;
-
     private Context mContext;
+
+
 
     public MenuItemAdapter(Context context)
     {

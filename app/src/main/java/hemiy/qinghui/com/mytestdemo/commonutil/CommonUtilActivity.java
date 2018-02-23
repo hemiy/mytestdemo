@@ -33,6 +33,9 @@ public class CommonUtilActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_com_util);
         ButterKnife.bind(this);
